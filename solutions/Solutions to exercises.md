@@ -10,6 +10,7 @@
 
 ## Find mutations by aligning sequences
 There are 50 nucleotide differences between the reference and the alpha variant.
+At the top of the alignment you can see a field called "identities" it tells you how many bases are identical. Substract these numbers from each other to get the answer.
 
 ## What mutations change the translated protein?
 
@@ -25,7 +26,6 @@ There are 50 nucleotide differences between the reference and the alpha variant.
 ## Let's have a closer look at the Spike protein
 1. You can find the input in solution/spike_alignment_input.txt
 2. 5
-3. 39
 
 ## Nextclade, a tool that does it all
 [https://www.ncbi.nlm.nih.gov/nuccore/OZ511251.1](https://www.ncbi.nlm.nih.gov/nuccore/OZ511251.1) XFG.3, 146 mutations

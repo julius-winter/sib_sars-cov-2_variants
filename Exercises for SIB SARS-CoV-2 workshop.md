@@ -1,18 +1,18 @@
 # Exercises for SIB SARS-CoV-2 workshop
 These exercises can get a bit tricky, so please ask if you're stuck.
-## Find and download SARS-CoV-2 sequences
+## Find and explore SARS-CoV-2 sequences
 1. Go to the Genbank [https://ncbi.nlm.nih.gov/nuccore](https://ncbi.nlm.nih.gov/nuccore) and search for the original Wuhan sequence (generally considered the reference). This is the accession number: **NC_045512.2** 
 2. In a new tab open one of the first complete sequences for the Alpha variant. This is the accession number: **MZ344997.1**
 3. And finally, in another tab open the early Omicron sequence from the first example. Accession number: **OL672836.1**
-4. Look at the information that is given to you for each sequence. What sort of metadata can you see?
+4. Look at the information that is given to you for each sequence. What sort of metadata can you see? Write down 2-3 field you can see.
 5. Which country is each sequence from?
-6. Can you find the amino acid sequence of the S (Spike) protein for each example?
+6. Can you find the **amino acid** sequence of the S (Spike) protein for each example?
 
 ## Find mutations by aligning sequences
 1. Go to [https://blast.ncbi.nlm.nih.gov](https://blast.ncbi.nlm.nih.gov) to run the so-called Basic Local Alignment Search Tool. Select Nucleotide BLAST.
 2. Click the box that says "Align two or more sequences"![](images/nucleotide_blast_landing.png)
-3. Input the accession number of our reference sequence into the first box (Query sequence) and input the accession number of our Alpha sequence into the bottom box (Subject sequence), then click BLAST.
-4. Look at the pairwise alignment with the reference and look at the number of mutations you can see. How many are there between the reference and Alpha? (Select the alignment view: pairwise with dots for identities to make it easier)
+3. Input the accession number of our reference sequence into the first box (Query sequence) and input the accession number of our Alpha sequence into the bottom box (Subject sequence), then click BLAST. Remember the accession numbers are given to you in the first exercise.
+4. Look at the pairwise alignment with the reference and look at the number of mutations you can see. How many are there between the reference and Alpha? There is an easy way and a time-consuming way. (Select the alignment view: pairwise with dots for identities to make it easier)
 
 ## What mutations change the translated protein?
 Translate the following DNA sequences into the corresponding amino acid sequence. Using the genetic code wheel.  
@@ -32,7 +32,6 @@ Translate the following DNA sequences into the corresponding amino acid sequence
 1. Go to [https://www.uniprot.org/align](https://www.uniprot.org/align) and copy the amino acid sequences for the spike proteins of the reference, alpha, and omicron variant into the input box. (We found these in exercise 1)  
 **Careful**, you need to add a FASTA header before each sequence. It look something like this: >name_of_file
 2. Look at the output and count how many amino acid changes Alpha and Omicron have in common.
-3. How many amino acid changes can you count for the Omicron variant compared to the reference?
 4. Head to [https://viralzone.expasy.org/9556](https://viralzone.expasy.org/9556) and look at the 3D model of the spike protein. Clicking on the texts and variant names on the right of the visualization highlights different areas of the 3D model. Can you find some of the mutations you identified earlier? (Our Omicron sequence corresponds to Omicron BA.1)
 
 ## Nextclade, a tool that does it all
