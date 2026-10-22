@@ -4,7 +4,7 @@
 1. Reference [https://ncbi.nlm.nih.gov/nuccore/NC_045512.2](https://ncbi.nlm.nih.gov/nuccore/NC_045512.2)
 2. Alpha [https://www.ncbi.nlm.nih.gov/nuccore/MZ344997.1](https://www.ncbi.nlm.nih.gov/nuccore/MZ344997.1)
 3. Omicron [https://www.ncbi.nlm.nih.gov/nuccore/OL672836.1](https://www.ncbi.nlm.nih.gov/nuccore/OL672836.1)
-4. Authors, information about sampling, translations of the genes, etc.
+4. Metadata, gene translations, full sequence
 5. Ref.: China, Alpha: United Kingdom, Omicron: Belgium
 6. Scroll down to gene S, surface/spike glycoprotein
 
@@ -17,7 +17,6 @@ At the top of the alignment you can see a field called "identities" it tells you
 | Variant | DNA sequence | Amino acid sequence |
 | ----------- | ----------- | ----------- |
 | Reference | CAA TCA TAT GGT TTC CAA CCC ACT AAT GGT GTT GGT TAC | QSYGFQPTNGVGY |
-| Alpha | CAA TCA TAT GGT TTC CAA CCC ACT TAT GGT GTT GGT TAC | QSYGFQPTYGVGY |
 | Omicron | CGA TCA TAT AGT TTC CGA CCC ACT TAT GGT GTT GGT CAC | RSYSFRPTYGVGH |
 
 1. All of them
