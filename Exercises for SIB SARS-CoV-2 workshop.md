@@ -12,7 +12,7 @@ These exercises can get a bit tricky, so please ask if you're stuck.
 1. Go to [https://blast.ncbi.nlm.nih.gov](https://blast.ncbi.nlm.nih.gov) to run the so-called Basic Local Alignment Search Tool. Select Nucleotide BLAST.
 2. Click the box that says "Align two or more sequences"![](images/nucleotide_blast_landing.png)
 3. Input the accession number of our reference sequence into the first box (Query sequence) and input the accession number of our Alpha sequence into the bottom box (Subject sequence), then click BLAST. Remember the accession numbers are given to you in the first exercise.
-4. Look at the pairwise alignment with the reference and look at the number of mutations you can see. How many are there between the reference and Alpha? There is an easy way and a time-consuming way. (Select the alignment view: pairwise with dots for identities to make it easier)
+4. Look at the pairwise alignment with the reference and change the alignment view to "pairwise with dots for identities". Find the mutation I presented to you during the introduction. It's located at position 23’063. What base mutated again?
 
 ## What mutations change the translated protein?
 Translate the following DNA sequences into the corresponding amino acid sequence. Using the genetic code wheel.  
@@ -30,7 +30,7 @@ Translate the following DNA sequences into the corresponding amino acid sequence
 ## Let's have a closer look at the Spike protein
 1. Go to [https://www.uniprot.org/align](https://www.uniprot.org/align) and copy the amino acid sequences for the spike proteins of the reference, alpha, and omicron variant into the input box. (We found these in exercise 1)  
 **Careful**, you need to add a FASTA header before each sequence. It look something like this: >name_of_file
-2. Look at the output and count how many amino acid changes Alpha and Omicron have in common.
+2. Look at the output and find our mutation from earlier. It should be in position 501. What is the mutation (which amino acid was it before and which one is it now)?
 4. Head to [https://viralzone.expasy.org/9556](https://viralzone.expasy.org/9556) and look at the 3D model of the spike protein. Clicking on the texts and variant names on the right of the visualization highlights different areas of the 3D model. Can you find some of the mutations you identified earlier? (Our Omicron sequence corresponds to Omicron BA.1)
 
 ## Nextclade, a tool that does it all
